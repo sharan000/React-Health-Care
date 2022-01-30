@@ -6,8 +6,8 @@ import ImageArrow from '../images/Arrow.png';
 function MobileApps(){
     return (
         <section>
-            <div class="section4">
-                <div class="section4-left">
+            <div className="section4">
+                <div className="section4-left">
                     <h5>Download our mobile apps</h5>
                     <p>Our dedicated patient engagement app and
                         web portal allow you to access information instantaneously
@@ -18,7 +18,7 @@ function MobileApps(){
                         <img src={ImageArrow} alt="Arrow" />
                     </button>
                 </div>
-                <div class="section4-right">
+                <div className="section4-right">
                     <img src={ImageDownloadApp} alt="download-App" />
                 </div>
             </div>

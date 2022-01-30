@@ -10,7 +10,7 @@ import ImageTracking from "../images/tracking list.PNG";
 function OurServices(props) {
   return (
     <section>
-      <div class="section2">
+      <div className="section2">
         <h5>Our Services</h5>
         <hr />
         <p>
@@ -19,7 +19,7 @@ function OurServices(props) {
           doctors you can consult with us which type of service is suitable for
           your health
         </p>
-        <div class="sec2-row1">
+        <div className="sec2-row1">
           <Card
             image={ImageFind}
             title="Search doctor"
@@ -39,7 +39,7 @@ function OurServices(props) {
             get the best recomendations"
           />
         </div>
-        <div class="sec2-row2">
+        <div className="sec2-row2">
           <Card
             image={ImageDetails}
             title="Details"

@@ -5,11 +5,11 @@ import ImageHealthCareProvider from '../images/heathcareProvider.png';
 function LeadingHealthCareProvider() {
     return (
         <section>
-            <div class="section3">
-                <div class="section3-left">
+            <div className="section3">
+                <div className="section3-left">
                     <img src={ImageHealthCareProvider} alt="healthcare-provider" />
                 </div>
-                <div class="section3-right">
+                <div className="section3-right">
                     <h5>Leading healthcare providers</h5>
                     <hr />
                     <p>

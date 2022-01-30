@@ -5,18 +5,18 @@ import ImageCustomerProfile from '../images/profile-image.jpg';
 function CustomerSaying(){
     return (
         <section>
-            <article class="section5">
+            <article className="section5">
                 <h5>What our customer are saying</h5>
                 <hr />
-                <div class="sec5-row1">
-                    <div class="column1">
-                        <img src={ImageCustomerProfile} alt="Customer Profile image" />
+                <div className="sec5-row1">
+                    <div className="column1">
+                        <img src={ImageCustomerProfile} alt="Customer Profile" />
                     </div>
-                    <div class="column2">
+                    <div className="column2">
                         <h3>Edward Newgate</h3>
                         <p>Founder Circle</p>
                     </div>
-                    <div class="column3">
+                    <div className="column3">
                         <p>“Our dedicated patient engagement app and
                             web portal allow you to access information instantaneously (no tedeous form, long calls,
                             or administrative hassle) and securely”</p>

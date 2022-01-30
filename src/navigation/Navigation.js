@@ -5,23 +5,23 @@ function Navigation() {
     <div>
       <nav>
         <figure>
-          <div class="logo">HC</div>
-          <div class="logo-name">Health Care</div>
+          <div className="logo">HC</div>
+          <div className="logo-name">Health Care</div>
         </figure>
-        <ul class="nav-menu">
-          <li class="nav-menu-list">
+        <ul className="nav-menu">
+          <li className="nav-menu-list">
             <a href="#services">Services</a>
           </li>
-          <li class="nav-menu-list">
+          <li className="nav-menu-list">
             <a href="#about">About</a>
           </li>
-          <li class="nav-menu-list">
+          <li className="nav-menu-list">
             <a href="#apps">Apps</a>
           </li>
-          <li class="nav-menu-list">
+          <li className="nav-menu-list">
             <a href="#testimonials">Testimonials</a>
           </li>
-          <li class="nav-menu-list">
+          <li className="nav-menu-list">
             <a href="#articles">Articles</a>
           </li>
         </ul>
