@@ -1,15 +1,6 @@
-
-p {
-    /* color: var(--color-black); */
-    font-size: 21px;
-    line-height: 32px;
-    font-weight: 300;
-    font-style: normal;
-}
-
-h2 {
-    font-size: 21px;
-    line-height: 32px;
+h5 {
+    font-size: 36px;
+    line-height: 56px;
     font-weight: 700;
 }
 
@@ -26,9 +17,6 @@ button {
     font-weight: 700;
     overflow: hidden;
 }
-/* section {
-    padding: 5% 5% 2% 5%;
-} */
 
 .section6 button:hover {
     border: 2px solid rgb(69, 231, 4);
@@ -74,7 +62,7 @@ button {
     border-radius: 20px 20px 0px 0px;
 }
 
-.sec6-row1 .column h2 {
+.sec6-row1 .column h4 {
     padding: 1% 0;
     padding: 4% 10%;
 }
