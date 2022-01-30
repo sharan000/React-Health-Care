@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Navigation from './navigation/Navigation';
+import VertualHealthCare from "./sections/VertualHealthCare";
+import OurServices from "./sections/OurServices";
+import LeadingHealthCareProvider from "./sections/LeadingHealthCareProvider";
+import MobileApps from "./sections/MobileApps";
+import CustomerSaying from "./sections/CustomerSaying";
+import LatestArticle from "./sections/LatestArticle";
+import Footer from "./footer/Footer";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <Navigation />
+      <VertualHealthCare />
+      <OurServices />
+      <LeadingHealthCareProvider />
+      <MobileApps />
+      <CustomerSaying />
+      <LatestArticle />
+      <Footer />
     </div>
   );
 }
