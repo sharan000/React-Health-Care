@@ -2,6 +2,8 @@ import './LatestArticle.css';
 import ImageInjection from '../images/image1.png';
 import ImageTest from '../images/image2.png';
 import ImageTherapy from '../images/image3.png';
+import Card from './Card';
+
 
 function LatestArticle(){
     return (
@@ -10,24 +12,24 @@ function LatestArticle(){
                 <h5>Check out our latest article</h5>
                 <hr />
                 <div className="sec6-row1">
-                    <div className="column">
-                        <img src={ImageInjection} alt="injection" />
-                        <h2>Disease detection, check up in the laboratory</h2>
-                        <p>Choose your doctor from thousands of specialist,
-                            general, and trusted hospitals</p>
-                    </div>
-                    <div className="column">
-                        <img src={ImageTest} alt="test" />
-                        <h2>Herbal medicines that are safe for consumption</h2>
-                        <p>Buy your medicines with our mobile application
-                            with a simple delivery system</p>
-                    </div>
-                    <div className="column">
-                        <img src={ImageTherapy} alt="therapy" />
-                        <h2>Natural care for healthy facial skin</h2>
-                        <p>Free consultation with our trusted doctors and
-                            get the best recomendations</p>
-                    </div>
+                    <Card
+                        image ={ImageInjection}
+                        title="Disease detection, check up in the laboratory"
+                        description="Choose your doctor from thousands of specialist,
+                            general, and trusted hospitals"
+                    />
+                    <Card
+                        image ={ImageTest}
+                        title="Herbal medicines that are safe for consumption"
+                        description="Buy your medicines with our mobile application
+                        with a simple delivery system"
+                    />
+                    <Card
+                        image ={ImageTherapy}
+                        title="Natural care for healthy facial skin"
+                        description="Free consultation with our trusted doctors and
+                        get the best recomendations"
+                    />
                 </div>
                 <button>Learn more</button>
             </div>

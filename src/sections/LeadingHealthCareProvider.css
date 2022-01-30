@@ -90,3 +90,53 @@ button {
 .section3-right button {
     margin: 2% 24% 5% 10%;
 }
+
+@media (max-width: 825px) {
+    section {
+        padding: 0;
+        margin: 5% 2%;
+    }
+    .section3 {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+    .section3-left {
+        display: flex;
+        justify-content: center;
+        margin: 2% 0;
+    }
+    .section3-left img {
+        width: 50%;
+        height: auto;
+    }
+    .section3-right {
+        margin: 2% 0;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .section3-right h5 {
+        margin: 1% 0;
+        padding: 1% 0;
+    }
+    .section3-right hr {
+        margin: auto;
+    }
+    .section3-right button {
+        margin: 5% auto;
+    }
+    .section3-right p {
+        padding: 2% 0;
+    }
+}
+
+@media (max-width: 710px) {
+    .section3-left img {
+        width: 80%;
+        height: auto;
+    }
+}

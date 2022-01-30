@@ -68,3 +68,52 @@ section {
     max-height: 598px;
     width: 100%;
 }
+
+@media (max-width: 825px) {
+    section {
+        padding: 0;
+        margin: 5% 2%;
+    }
+    .section1 {
+        display: flex;
+        align-items: center;
+        flex-flow: column-reverse;
+    }
+    .section1-right {
+        display: flex;
+        justify-content: center;
+        margin: 2% 0;
+    }
+    .section1-right img {
+        width: 50%;
+        height: auto;
+    }
+    .section1-left {
+        margin: 2% 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-flow: column;
+        width: 100%;
+    }
+    .section1-left h6 {
+        margin: 1% 0;
+        padding: 1% 0;
+    }
+    .section1-left p {
+        padding: 2% 0;
+    }
+    .section1-left button {
+        margin: auto;
+    }
+}
+
+@media (max-width: 710px) {
+    .section1-right img {
+        width: 80%;
+        height: auto;
+    }
+    .column:hover {
+        transform: scale(1.1);
+    }
+}

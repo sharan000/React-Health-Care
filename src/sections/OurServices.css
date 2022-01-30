@@ -75,3 +75,50 @@ button {
     color: #458FF6;
     margin: 2% auto 0% auto;
 }
+
+@media (max-width: 1066px) {
+    .column:hover {
+        transform: scale(1.1);
+    }
+    .section2 .column {
+        margin: 2%;
+        padding: 2%;
+    }
+}
+
+@media (max-width: 960px) {
+    .section2 .column {
+        margin: 2%;
+    }
+}
+
+@media (max-width: 825px) {
+    section {
+        padding: 0;
+        margin: 5% 2%;
+    }
+    .section2 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .section2 .column {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 5% 1%;
+        padding: 2% 1%;
+    }
+    .column:hover {
+        transform: scale(1.05);
+    }
+    .sec2-row1,
+    .sec2-row2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+    }
+    .section2 button {
+        margin: 5% auto;
+    }
+}

@@ -91,3 +91,47 @@ button {
     color: #458FF6;
     margin: 4% auto;
 }
+
+@media (max-width: 1066px) {
+    .section6 .column {
+        margin: 2%;
+    }
+}
+
+@media (max-width: 825px) {
+    section {
+        padding: 0;
+        margin: 5% 2%;
+    }
+    .section6 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 1% 0;
+    }
+    .sec6-row1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .section6 .column {
+        margin: 5% 01%;
+        padding: 0;
+    }
+    .sec6-row1 .column p {
+        text-align: start;
+        padding: 2% 10% 5% 10%;
+    }
+    .section6 .column:hover {
+        transform: scale(1.03);
+    }
+}
+
+@media (max-width: 710){
+    .section6 .column {
+        margin: 3%;
+    }
+    .section6 .column:hover {
+        transform: scale(1.05);
+    }
+}
