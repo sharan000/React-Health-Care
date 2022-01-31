@@ -1,8 +1,8 @@
 import './LatestArticle.css';
-import ImageInjection from '../images/image1.png';
-import ImageTest from '../images/image2.png';
-import ImageTherapy from '../images/image3.png';
-import Card from './Card';
+import ImageInjection from '../../images/image1.png';
+import ImageTest from '../../images/image2.png';
+import ImageTherapy from '../../images/image3.png';
+import Card from '../Card';
 
 
 function LatestArticle(){

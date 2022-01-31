@@ -1,11 +1,11 @@
 import "./OurServices.css";
-import Card from "./Card";
-import ImageFind from "../images/find.png";
-import ImageMedicine from "../images/medicine.PNG";
-import ImageConsult from "../images/consult.PNG";
-import ImageDetails from "../images/details.PNG";
-import ImageEmergency from "../images/emergency.PNG";
-import ImageTracking from "../images/tracking list.PNG";
+import Card from "../Card";
+import ImageFind from "../../images/find.png";
+import ImageMedicine from "../../images/medicine.PNG";
+import ImageConsult from "../../images/consult.PNG";
+import ImageDetails from "../../images/details.PNG";
+import ImageEmergency from "../../images/emergency.PNG";
+import ImageTracking from "../../images/tracking list.PNG";
 
 function OurServices(props) {
   return (

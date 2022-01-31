@@ -1,6 +1,6 @@
 import "./LeadingHealthCareProvider.css";
 
-import ImageHealthCareProvider from '../images/heathcareProvider.png';
+import ImageHealthCareProvider from '../../images/heathcareProvider.png';
 
 function LeadingHealthCareProvider() {
     return (

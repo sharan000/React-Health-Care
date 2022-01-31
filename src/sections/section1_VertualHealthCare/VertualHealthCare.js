@@ -1,6 +1,6 @@
 import './VertualHealthCare.css';
 
-import header from '../images/header-image.png';
+import header from '../../images/header-image.png';
 
 function VertualHealthCare(){
     return (

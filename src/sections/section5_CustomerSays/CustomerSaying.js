@@ -1,6 +1,6 @@
 import './CustomerSaying.css';
 
-import ImageCustomerProfile from '../images/profile-image.jpg';
+import ImageCustomerProfile from '../../images/profile-image.jpg';
 
 function CustomerSaying(){
     return (

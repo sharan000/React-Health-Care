@@ -1,7 +1,7 @@
 import './MobileApps.css';
 
-import ImageDownloadApp from'../images/application.png';
-import ImageArrow from '../images/Arrow.png';
+import ImageDownloadApp from'../../images/application.png';
+import ImageArrow from '../../images/Arrow.png';
 
 function MobileApps(){
     return (
